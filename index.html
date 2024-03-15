@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image.png" href="./img/cloud.png">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+
+    <div class="div-main">
+        <div class="pesquisar">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" id="cidadeInput" placeholder="Digite uma Cidade">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="erro">
+            <img src="./img/404.png">
+            <p>Localização Inválida!</p>
+        </div>
+
+        <div class="clima">
+            <img src="">
+            <p class="temperatura"></p>
+            <p class="descricao"></p>
+            <a href="#" target="_blank" class="city-link">Mais Informações</a>
+        </div>
+
+        <div class="clima-dados">
+            <div class="humidade">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                </div>
+            </div>
+            <div class="vento">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
